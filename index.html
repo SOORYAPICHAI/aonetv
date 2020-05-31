@@ -30,29 +30,48 @@
     <link rel="manifest" href="site.webmanifest">
     <style>
         .brand-logos{
-            width: 150px;height:150px;
+            width: 200px;height:200px;
         }
         .brand-logos:nth-of-type(even) {
-            border-left: 1px solid white;
+            /* border-left: 1px solid white;
     border-right: 1px solid white;
-    border-bottom: 1px solid white;
-    padding: 5px;
+    border-bottom: 1px solid white; */
+    padding: 20px;
         }
         .brand-logos:nth-of-type(odd) {
-    border-bottom: 1px solid white;
-    padding: 5px;
+    /* border-bottom: 1px solid white; */
+    padding: 20px;
         }
         .brand-logos-bottom{
-    width: 150px;height:150px;
+    width: 200px;height:200px;
         }
         .brand-logos-bottom:nth-of-type(even){
-            border-left: 1px solid white;
-    border-right: 1px solid white;
-    padding: 5px;
+            /* border-left: 1px solid white;
+    border-right: 1px solid white; */
+    padding: 20px;
         }
         .brand-logos-bottom:nth-of-type(odd) {
-    padding: 5px;
+    padding: 20px;
         }
+        @media only screen and (max-width: 600px) {
+            .brand-logos{
+            width: 150px;height:auto;
+        }
+        .brand-logos-bottom{
+    width: 150px;height:auto;
+        }
+        .subheadsupport{
+            font-size: 3.8rem !important;
+        }
+        /* .display-1-why{
+            font-size: 3.8rem !important;
+        } */
+        }
+        @media only screen and (min-width: 600px) {
+ .d-none-smUp{
+     display: none;
+ }
+}
     </style>
 </head>
 
@@ -201,7 +220,7 @@
 
         <div class="row connect-content">
             <div class="column large-half tab-full">
-                <h3 class="display-1">What is AM ONE TV ?</h3>
+                <h3 class="display-1 display-1-why">What is AM ONE TV ?</h3>
                 <p align=justify>
                     AM ONE TV will highlight short content made by smart phones by content providers around the
                     world. Content will be delivered to consumers through smart phones, tablets, video game
@@ -214,7 +233,7 @@
                 <a href="volunteer.html" class="btn btn--primary h-full-width">MORE INFO</a>
             </div>
             <div class="column large-half tab-full">
-                <h3 class="display-1">Why AM ONE TV ?</h3>
+                <h3 class="display-1 display-1-why ">Why AM ONE TV ?</h3>
                 <p align=justify>
                     AM ONE TV is more than the “Smart phone Netflix” we are the “Tesla of Modern Day Cinema” and
                     making unique content available while also providing a sustainable platform for live event
@@ -327,85 +346,133 @@
 
         <div class="row row-y-center series-content">
 
-            <div class="column large-half medium-full">
+            <div class="column large-full medium-full">
                 <h3 class="subhead">AM ONE TV.</h3>
-                <h2>SUPPORTERS</h2>
-                <ul class="events-list__meta underlineULNone" style="color:white" >
-                    
-                    <li > </i> AM ONE FESTIVAL in partnership with New Generation In Action's AFI WORLD PEACE
-                        INITIATIVE</li>
-                    <li > Film Festivals. com</li>
-                    <li >Film Free Way</li>
-                    <li>Tina Tandon NY</li>
-                    <li> Center for SDG Global Education (Consultative Status to the United Nations)</li>
-                    <li>The Ring of Peace</li>
-                    <li> (show logos here)</li>
-                </ul>
+                <h2 class="subheadsupport">SUPPORTERS</h2>
             </div> <!-- end column -->
 
-            <div class="column large-half medium-full">
-                <div class="series-content__buttons">
-                    <a href="" class="btn btn--large h-full-width">Watch the Video</a>
-                    <a href="" class="btn btn--large h-full-width">Listen To the Message</a>
+            <!-- <div class="row wide block-large-1-2 block-900-full events-list"> -->
+                <div class="column block-large-1-2 medium-full hide-on-mobile">
+                    <div class="row row-y-center" style="width: 100%;">
+                        <div class="column large-full medium-full " style="display: flex;justify-content: center;">
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-1.png" width="100%"/>
+                            </div>
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-2.png" width="100%"/>
+                            </div>
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-3.png" width="100%"/>
+                            </div>
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-4.png" width="100%"/>
+                            </div>
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-5.png" width="100%"/>
+                            </div>
+                            
+                            
+                
+                        </div>
+                    </div>
+                    <div class="row row-y-center" style="width: 100%;">
+                        <div class="column large-full medium-full " style="display: flex;justify-content: center;">
+                            <div class="brand-logos-bottom">
+                                <img src="images/partner/partner-6.png" width="100%"/>
+                            </div>
+                            <div class="brand-logos-bottom">
+                                <img src="images/partner/partner-7.png" width="100%"/>
+                            </div>
+                            <div class="brand-logos-bottom">
+                                <img src="images/partner/partner-8.png" width="100%"/>
+                            </div>
+                            <div class="brand-logos-bottom">
+                                <img src="images/partner/partner-9.png" width="100%"/>
+                            </div>
+                            <!-- <div class="brand-logos-bottom">
+                                <img src="images/partner/partner-9.png" width="100%"/>
+                            </div> -->
+                            
+                            
+                
+                        </div>
+                    </div>
                 </div>
 
-                <div class="series-content__subscribe">
-                    <p>
-                    Never missed a message. Subscribe to our YouTube and Podcast channels.
-                    </p>
+                <div class="column block-large-1-2 medium-full d-none-smUp">
+                    <div class="row row-y-center" style="width: 100%;">
+                        <div class="column large-full medium-full " style="display: flex;justify-content: center;">
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-1.png" width="100%"/>
+                            </div>
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-2.png" width="100%"/>
+                            </div>
+                          
+                            
+                            
+                
+                        </div>
+                    </div>
+                    <div class="row row-y-center" style="width: 100%;">
+                        <div class="column large-full medium-full " style="display: flex;justify-content: center;">
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-3.png" width="100%"/>
+                            </div>
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-4.png" width="100%"/>
+                            </div>
+                           
+                            
+                            
+                
+                        </div>
+                    </div>
+                    <div class="row row-y-center" style="width: 100%;">
+                        <div class="column large-full medium-full " style="display: flex;justify-content: center;">
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-5.png" width="100%"/>
+                            </div>
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-6.png" width="100%"/>
+                            </div>
+                            
+                            
+                            
+                
+                        </div>
+                    </div>
+                    <div class="row row-y-center" style="width: 100%;">
+                        <div class="column large-full medium-full " style="display: flex;justify-content: center;">
+                         
                     
-                    <ul class="series-content__subscribe-links">
-                        <li class="ss-apple-podcast"><a href="#0">Apple Podcast</a></li>
-                        <li class="ss-spotify"><a href="#0">Spotify</a></li>
-                        <li class="ss-soundcloud"><a href="#0">SoundCloud</a></li>
-                        <li class="ss-youtube"><a href="#0">Youtube</a></li>
-                    </ul>
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-7.png" width="100%"/>
+                            </div>
+                            <div class="brand-logos">
+                                <img src="images/partner/partner-8.png" width="100%"/>
+                            </div>
+                            
+                            
+                
+                        </div>
+                    </div>
+                    <div class="row row-y-center" style="width: 100%;">
+                        <div class="column large-full medium-full " style="display: flex;justify-content: center;">
+                         
+                           
+                            <div class="brand-logos-bottom">
+                                <img src="images/partner/partner-9.png" width="100%"/>
+                            </div>
+                          
+                            
+                            
+                
+                        </div>
+                    </div>
                 </div>
-            </div> <!-- end column -->
-            <div class="row row-y-center" style="width: 100%;">
-                <div class="column large-full medium-full" style="display: flex;">
-                    <div class="brand-logos">
-                        <img src="images/icons_dummy.jpeg" width="100%"/>
-                    </div>
-                    <div class="brand-logos">
-                        <img src="images/icons_dummy.jpeg" width="100%"/>
-                    </div>
-                    <div class="brand-logos">
-                        <img src="images/icons_dummy.jpeg" width="100%"/>
-                    </div>
-                    <div class="brand-logos">
-                        <img src="images/icons_dummy.jpeg" width="100%"/>
-                    </div>
-                    <div class="brand-logos">
-                        <img src="images/icons_dummy.jpeg" width="100%"/>
-                    </div>
-                    
-                    
+            <!-- </div> -->
 
-                </div>
-            </div>
-            <div class="row row-y-center" style="width: 100%;">
-                <div class="column large-full medium-full" style="display: flex;">
-                    <div class="brand-logos-bottom">
-                        <img src="images/icons_dummy.jpeg" width="100%"/>
-                    </div>
-                    <div class="brand-logos-bottom">
-                        <img src="images/icons_dummy.jpeg" width="100%"/>
-                    </div>
-                    <div class="brand-logos-bottom">
-                        <img src="images/icons_dummy.jpeg" width="100%"/>
-                    </div>
-                    <div class="brand-logos-bottom">
-                        <img src="images/icons_dummy.jpeg" width="100%"/>
-                    </div>
-                    <div class="brand-logos-bottom">
-                        <img src="images/icons_dummy.jpeg" width="100%"/>
-                    </div>
-                    
-                    
-
-                </div>
-            </div>
         </div> <!-- series-content -->
 
     </section> <!-- end s-series -->
