@@ -110,7 +110,7 @@ body {
 
 body {
   background: #121212;
-  font-family: "Lora", serif;
+  font-family: "Roboto", serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: normal;
@@ -223,7 +223,7 @@ p img {
 }
 
 p.lead {
-  font-family: "Lora", serif;
+  font-family: "Roboto", serif;
   font-weight: 500;
   font-size: 2.8rem;
   line-height: 1.857;
@@ -986,8 +986,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #feba2e;
+  border-color: #feba2e;
   color: #ffffff;
   outline: 0;
 }
@@ -999,9 +999,9 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #3b0d11;
-  border-color: #3b0d11;
-  color: #ffffff;
+  background: #FECB2E;
+  border-color: #FECB2E;
+  color: #000000;
 }
 
 .btn.btn--primary:hover,
@@ -1014,8 +1014,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #000000;
-  border-color: #000000;
+  background: #feba2e;
+  border-color: #feba2e;
 }
 
 /* button modifiers
@@ -1082,7 +1082,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .drop-cap:first-letter {
   float: left;
-  font-family: "Lora", serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
   font-size: 3.6em;
   line-height: 1;
@@ -1834,8 +1834,8 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 108px;
-  height: 28px;
+  width: 250px;
+  height: 52px;
 }
 
 /* -------------------------------------------------------------------
@@ -1851,7 +1851,7 @@ input::-moz-focus-inner {
 .header-nav {
   list-style: none;
   font-family: "Montserrat", sans-serif;
-  font-size: .9rem;
+  font-size: 15px;
   line-height: 4.8rem;
   text-transform: uppercase;
   letter-spacing: .35rem;
@@ -2130,7 +2130,7 @@ input::-moz-focus-inner {
   content: "";
   height: 2px;
   width: 10rem;
-  background-color: #7d1c24;
+  background-color: #E08026;
   position: absolute;
   top: 0;
   left: .8rem;
@@ -2520,12 +2520,12 @@ html.no-csstransitions .hero-content {
 .s-about {
   padding-top: 19.6rem;
   padding-bottom: 19.6rem;
-  background-color: #3b0d11;
+  background-color: #0a0a0a;
   color: rgba(255, 255, 255, 0.8);
 }
 
 .s-about .subhead {
-  color: #fb8b23;
+  color: #feba2e;
   margin-bottom: 4rem;
 }
 
@@ -2538,8 +2538,8 @@ html.no-csstransitions .hero-content {
   display: block;
   width: 100%;
   margin-right: 0;
-  background-color: #21070a;
-  border-color: #21070a;
+  background-color: #FECB2E;
+  border-color: #feba2e;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3133,7 +3133,7 @@ html.no-csstransitions .hero-content {
 .s-footer {
   padding-top: 12rem;
   padding-bottom: 8rem;
-  background-color: #3b0d11;
+  background-color: #0a0a0a;
   font-family: "Open Sans", sans-serif;
   font-size: 1.7rem;
   line-height: 1.882;
@@ -3151,15 +3151,15 @@ html.no-csstransitions .hero-content {
 }
 
 .s-footer .btn--footer {
-  border-color: #21070a;
-  background-color: #21070a;
+  border-color: #FECB2E;
+  background-color: #FECB2E;
   padding: 0 4rem;
 }
 
 .s-footer .btn--footer:hover,
 .s-footer .btn--footer:focus {
-  border-color: #000000;
-  background-color: #000000;
+  border-color: #E08026;
+  background-color: #E08026;
 }
 
 .s-footer .row .column:first-child {
